@@ -21,7 +21,7 @@ export class TodoService {
 
   deleteCompleted(){
     return new Promise(resolve => {
-      TODOS = TODOS.filter(todo => todo.isDone === true);
+      TODOS = TODOS.filter(todo => !todo.isDone);
       resolve(TODOS)
     })
   }
