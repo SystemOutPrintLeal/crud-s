@@ -7,7 +7,7 @@
 /bazel-out
 
 # Node
-/angular-crud/node_modules
+./angular-crud/node_modules
 npm-debug.log
 yarn-error.log
 
